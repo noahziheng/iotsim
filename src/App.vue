@@ -17,6 +17,9 @@
             </div>
         </Split>
     </div>
+    <div class="page-footer">
+      © 2019 <a href="https://noahgao.net">Noah Gao</a> of <a href="https://www.tust.edu.cn">TUST</a>.
+    </div>
   </div>
 </template>
 
@@ -74,6 +77,14 @@ html, body {
     color:#ff9400;
     margin-right: 6px;
   }
+}
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  z-index: 999;
 }
 #app {
   height: 100%;
