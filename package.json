@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "iview": "^3.2.1",
+    "msgpack-lite": "^0.1.26",
     "normalize.css": "^8.0.1",
     "vue": "^2.5.21"
   },
@@ -20,6 +21,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "vue-cli-plugin-iview": "^1.0.6",
     "vue-template-compiler": "^2.5.21"
   }
